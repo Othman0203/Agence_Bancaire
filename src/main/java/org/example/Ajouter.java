@@ -33,7 +33,13 @@ public class Ajouter {
 
     // Méthode pour afficher le client
     public void afficherClient() {
-        System.out.println("ID: " + id + " | Nom: " + nom + " | Prénom: " + prenom + " | Sexe: " + sexe + " | Age: " + age);
+        System.out.println("ID: " + id
+                + " | Nom: " + nom
+                + " | Prénom: " + prenom
+                + " | Sexe: " + sexe
+                + " | Age: " + age
+                + " | votre travaille: " + votre_travaille
+                + " | votre salaire : " + salaire);
     }
 
     public int getId() {
