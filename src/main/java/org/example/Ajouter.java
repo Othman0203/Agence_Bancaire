@@ -7,6 +7,8 @@ public class Ajouter {
     private String prenom;
     private String sexe;
     private int age;
+    private String votre_travaille;
+    private double salaire;
 
     // Méthode pour ajouter un client
     public void Ajouter(String nom, String prenom, String sexe, int age) {
@@ -15,6 +17,8 @@ public class Ajouter {
         this.prenom = prenom;
         this.sexe = sexe;
         this.age = age;
+        this.votre_travaille = votre_travaille;
+        this.salaire = salaire;
 
         // Affichage des informations du nouveau client
         System.out.println("ID client : " + this.id);
@@ -22,6 +26,8 @@ public class Ajouter {
         System.out.println("Prénom : " + this.prenom);
         System.out.println("Sexe : " + this.sexe);
         System.out.println("Age : " + this.age);
+        System.out.println("votre travaille : " + this.votre_travaille);
+        System.out.println("votre Salaire : " + this.salaire);
         System.out.println("Vous êtes un nouveau client avec notre agence bancaire !");
     }
 
