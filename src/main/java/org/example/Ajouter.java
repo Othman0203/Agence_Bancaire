@@ -11,7 +11,7 @@ public class Ajouter {
     private double salaire;
 
     // Méthode pour ajouter un client
-    public void Ajouter(String nom, String prenom, String sexe, int age) {
+    public void Ajouter(String nom, String prenom, String sexe, int age, String votre_travaille, double salaire) {
         this.id = compteurId++; // attribuer un ID unique automatiquement
         this.nom = nom;
         this.prenom = prenom;
